@@ -1,0 +1,4 @@
+SELECT [System.Id], [System.Title], [System.State]
+FROM workitems
+WHERE [System.WorkItemType] = 'Epic'
+ORDER BY [System.ChangedDate] DESC

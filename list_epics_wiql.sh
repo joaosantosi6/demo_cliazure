@@ -13,4 +13,4 @@ ORGANIZATION_URL="https://dev.azure.com/${organization}"
 echo $PAT | az devops login --organization $ORGANIZATION_URL
 
 az devops configure --defaults organization=https://dev.azure.com/${organization} project=${project}
-az boards work-item create --title "Novo Epic" --type "Epic" --description "Este é um novo Epic criado usando CLI"
+az boards query --wiql @query.wiql > epics.json

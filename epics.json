@@ -1,0 +1,35 @@
+[
+  {
+    "fields": {
+      "System.Id": 3,
+      "System.State": "To Do",
+      "System.Title": "Novo Epic"
+    },
+    "id": 3,
+    "relations": null,
+    "rev": 1,
+    "url": "https://dev.azure.com/joaosantos0209/_apis/wit/workItems/3"
+  },
+  {
+    "fields": {
+      "System.Id": 2,
+      "System.State": "To Do",
+      "System.Title": "Novo Epic"
+    },
+    "id": 2,
+    "relations": null,
+    "rev": 1,
+    "url": "https://dev.azure.com/joaosantos0209/_apis/wit/workItems/2"
+  },
+  {
+    "fields": {
+      "System.Id": 1,
+      "System.State": "To Do",
+      "System.Title": "Novo Epic"
+    },
+    "id": 1,
+    "relations": null,
+    "rev": 1,
+    "url": "https://dev.azure.com/joaosantos0209/_apis/wit/workItems/1"
+  }
+]
